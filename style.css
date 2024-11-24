@@ -24,10 +24,13 @@ nav{
 
 
 .header_content{
-    border: 2px solid white;
     display: flex;
+    justify-content: center;
+    padding: 54px;
+    font-family: Roboto;
+    gap: 54px;
 }
 .text{
-    max-width: 300px;
+    max-width: 600px;
     text-wrap: wrap;
 }
