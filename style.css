@@ -1,12 +1,13 @@
 .header{
     background-color: #1f2937;
     color: white;
+    font-size: 1.5em;
 }
 nav, ul{
     display: flex;
 }
-.header img{
-    max-width: 300px;
+.header img, .text{
+    max-width: 700px;
 }
 a, li{
     text-decoration: none;
@@ -18,19 +19,29 @@ li{
 }
 
 nav{
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
-
+body{
+    margin: 0px;
+}
 
 
 .header_content{
     display: flex;
-    justify-content: center;
-    padding: 54px;
+    justify-content: space-evenly;
+    padding-bottom: 54px;
     font-family: Roboto;
-    gap: 54px;
 }
-.text{
-    max-width: 600px;
-    text-wrap: wrap;
+img{
+    border-radius: 20px;
+}
+button{
+    color: white;
+    font-family: Roboto;
+    text-decoration: none;
+    background-color: #3882f6;
+    font-size: 1em;
+    font-weight: 900;
+    border-radius: 10px;
+    padding: 5px 40px;
 }
