@@ -31,7 +31,7 @@ body{
 .header_content{
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 54px;
+    padding: 60px;
 }
 img{
     border-radius: 20px;
@@ -134,7 +134,8 @@ footer{
         font-size: 0.8rem;
     }
 }
-img {
-    max-width: 100%;
+.header_content img{
+    max-width: 80%;
     height: auto;
+    display: block;
 }
