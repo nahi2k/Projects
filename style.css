@@ -23,6 +23,8 @@ nav{
 }
 body{
     margin: 0px;
+    font-family: Roboto;
+    color: #1f2937;
 }
 
 
@@ -30,7 +32,6 @@ body{
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 54px;
-    font-family: Roboto;
 }
 img{
     border-radius: 20px;
@@ -44,4 +45,53 @@ button{
     font-weight: 900;
     border-radius: 10px;
     padding: 5px 40px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.info img{
+    max-width: 300px;
+    mix-blend-mode: multiply;
+}
+.section{
+    text-align: center;
+}
+
+.section, .info div p{
+    font-family: Roboto;
+    font-size: 1em;
+    font-weight: 600;
+    color: #1f2937;
+}
+.qoute{
+    background-color: #e5e7eb;
+    text-align: center;
+    margin: 0px;
+    padding: 100px;
+}
+.call{
+    text-align: center;
+    padding: 60px;
+}
+.action{
+    display: flex;
+    background-color: #3882f6;
+    max-width: 700px;
+    padding: 50px;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.action button{
+    border: 2px solid white;
+}
+footer{
+    text-align: center;
+    font-family: light italic;
+    font-size: 16px;
+    color: white;
+    background-color: #1f2937;
+    padding: 30px;
 }
